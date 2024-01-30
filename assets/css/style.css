@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    text-align: center;
+    font-family: "Open Sans";
+}
+
+/* BARRA DE NAVEGACION */
+.icono svg {
+    width: 30px;
+    fill: white;
+}
+
+.oscuro {
+    background-color: #000f08;
+    color: white;
+    text-align: left;
+    padding: 20px 120px;
+    font-size: 20px;
+}
+
+.oscuro ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+#inicio {
+    text-align: right;
+    background-image: url("/assets/img/bg-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    font-family: monospace;
+    text-shadow: 0px 3px 6px black;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 40px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* UBICACION */
+
+#ubicacion {
+    margin: 50px;
+}
+
+#ubicacion img {
+    width: 30%;
+}
+
+#ubicacion h2 {
+    font-size: 40px;
+    margin: 40px 0px 20px 0px;
+}
+
+#ubicacion p {
+    font-size: 30px;
+}
+
+
+/* PROXIMA CHARLA */
+
+#proxima-charla {
+    background-color: #a4452c;
+    padding: 50px;
+    color: white;
+}
+
+#proxima-charla img,
+.charla-texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#proxima-charla .charla-texto {
+    text-align: left;
+    margin-left: 50px;
+}
+
+#proxima-charla .charla-texto h2 {
+    font-size: 40px;
+}
+
+#proxima-charla .charla-texto h3 {
+    font-size: 30px;
+}
+
+#proxima-charla .charla-texto h4 {
+    font-size: 15px;
+}
+
+#proxima-charla .charla-texto h5 {
+    font-size: 20px;
+}
+
+#proxima-charla .charla-texto p {
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
+}
+
+#proxima-charla .charla-speaker {
+    text-align: left;
+}
+
+
+/* Eventos */
+#eventos {
+    padding: 100px;
+}
+
+#eventos h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#eventos article {
+    display: inline-block;
+    margin: 0px 50px;
+    font-size: 30px;
+}
+
+#eventos article img {
+    margin-bottom: 30px;
+}
+
+
+/* Footer */
+#contacto {
+    text-align: center;
+}
+
+#contacto a {
+    margin-left: 20px;
+    color: white;
+    font-size: 10px;
+}
+
+#contacto p {
+    margin-top: 20px;
+}
+
+
+/* EVENTO-1 */
+
+#simposio {
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#simposio h2 {
+    margin: 30px 20px 20px 0px;
+}
+
+#simposio img {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+#simposio p {
+    width: 80%;
+    font-family: "Open Sans";
+    margin-bottom: 20px;
+}
